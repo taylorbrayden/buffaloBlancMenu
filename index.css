@@ -13,11 +13,11 @@ body {
 }
 
 .menu {
-    background-color:rgb(238, 247, 255);
+    background-color:rgb(255, 255, 255);
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    max-width: 500px;
+    max-width: 600px;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px grey;
@@ -31,5 +31,24 @@ img {
 
 h1 {
     color: brown;
-    font-size: 36px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+h3, p, li {
+    color: rgb(73, 137, 186)
+}
+
+ul {
+    list-style: none;
+}
+  
+li {
+    padding-left: 1em;
+    text-indent: -1em;
+}
+  
+li:before {
+    content: "◦";
+    padding-right: 5px;
 }
