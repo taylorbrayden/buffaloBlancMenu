@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-color: burlywood;
+}
+
+.established {
+    font-style: italic;
+    text-align: center;
+}
+
+.menu {
+    background-color:rgb(238, 247, 255);
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 500px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: brown;
+    font-size: 36px;
+}
