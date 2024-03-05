@@ -5,7 +5,6 @@
 body {
     font-family:monospace;
     background-image: url(brick.avif);
-    text-align: center;
     padding: 0;
     margin: 0;
 }
@@ -14,7 +13,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -100%);
+    transform: translate(-50%, -70%);
     color: white;
     font-weight: normal;
     text-transform: uppercase;
@@ -29,14 +28,9 @@ body {
     color: white;
 }
 
-.established {
-    font-style: italic;
-    text-align: center;
-}
-
 .header {
-    width: 80%;
     height: 200px;
+    width: 100%;
     object-fit: cover;
     will-change: opacity;
     box-shadow: 0px 0px 10px 4px grey;
@@ -45,8 +39,7 @@ body {
 .menu {
     background-color:rgb(255, 255, 255);
     margin: 20px auto;
-    width: 80%;
-    max-width: 600px;
+    max-width: 700px;
     padding: 30px;
     border-radius: 2px;
     border: 4px solid black;
@@ -55,8 +48,17 @@ body {
 }
 
 .menu-text * {
-    margin: 10px auto;
+    margin: 5px;
     text-align: left;
+}
+
+.drink-text h3 {
+    margin-bottom: 0;
+}
+
+.drink-text p {
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 img {
@@ -68,6 +70,10 @@ img {
 h1 {
     color: #ae5631;
     font-size: 22px;
+}
+
+h1 {
+    margin-top: 20px;
 }
 
 h3, p, li, tr {
